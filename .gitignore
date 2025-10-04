@@ -1,0 +1,16 @@
+# Build artifacts (.NET)
+bin/
+obj/
+TestResults/
+
+# Visual Studio (si lo llegas a usar)
+.vs/
+
+# macOS
+.DS_Store
+
+# Configs locales (recomendado)
+appsettings.Local.json
+appsettings.*.Local.json
+.env
+.env.*

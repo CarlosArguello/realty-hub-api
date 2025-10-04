@@ -1,0 +1,7 @@
+<Project>
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>PropertyHub.$(MSBuildProjectName)</RootNamespace>
+  </PropertyGroup>
+</Project>
