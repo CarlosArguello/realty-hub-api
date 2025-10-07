@@ -41,6 +41,37 @@ public sealed class MongoPropertyQueries(IMongoDatabase db) : IPropertyQueries
 
         var items = await _properties.Aggregate()
             .Match(filter)
+            .Lookup<PropertyDocument, PropertyImageDocument, PropertyImagesJoin>(
+                _propertyImgs,
+                localField: p => p.Id,
+                foreignField: i => i.PropertyId,
+                @as: pwi => pwi.propertyImages
+            )
+            .SortByDescending(p => p.Name)
+            .Skip(skip)
+            .Limit(pageSize)
+            .Project(p => new PropertySummaryDto(
+                    p.CodeInternal,
+                    p.Name,
+                    p.Address,
+                    p.Price,
+                    p.Year,
+                    p.propertyImages
+                        .Where(i => i.Enabled)
+                        .Select(i => i.File ?? string.Empty)
+                        .FirstOrDefault()
+            )).ToListAsync(ct);
+
+        return new Paged<PropertySummaryDto>(items, total, page, pageSize);
+
+    }
+
+
+
+    public async Task<PropertyFullDetailsDto> GetByCodeAsync(string code, CancellationToken ct)
+    {
+        var property = await _properties.Aggregate()
+            .Match(p => p.CodeInternal == code)
             .Lookup<PropertyDocument, OwnerDocument, PropertyOwnersJoin>(
                 _owners,
                 localField: p => p.OwnerId,
@@ -53,26 +84,26 @@ public sealed class MongoPropertyQueries(IMongoDatabase db) : IPropertyQueries
                 foreignField: i => i.PropertyId,
                 @as: pwi => pwi.propertyImages
             )
-            .SortByDescending(p => p.Name)
-            .Skip(skip)
-            .Limit(pageSize)
-            .Project(p => new PropertySummaryDto(
-                    p.Id.ToString(),
+            .Project(p => new PropertyFullDetailsDto(
+                    p.CodeInternal,
                     p.Name,
                     p.Address,
                     p.Price,
                     p.Year,
-                    p.OwnerId.ToString(),
-                    p.Owners.Select(o => o.Name ?? string.Empty).FirstOrDefault(),
-                    p.propertyImages
-                        .Where(i => i.Enabled)
-                        .Select(i => i.File ?? string.Empty)
-                        .FirstOrDefault()
-            )).ToListAsync(ct);
+                    new OwnerDto(
+                        p.OwnerId.ToString(),
+                        p.Owners.Select(o => o.Name).FirstOrDefault() ?? string.Empty,
+                        p.Owners.Select(o => o.Address).FirstOrDefault(),
+                        p.Owners.Select(o => o.Photo).FirstOrDefault(),
+                        p.Owners.Select(o => o.Birthday).FirstOrDefault()
+                    ),
+                    new PropertyImageDto(
+                        p.propertyImages.Select(i => i.File).FirstOrDefault() ?? string.Empty,
+                        p.propertyImages.Select(i => (bool?)i.Enabled).FirstOrDefault() ?? false
+                    )
+                )).FirstOrDefaultAsync(ct);
 
-        Console.WriteLine($"items: {total}");
-
-        return new Paged<PropertySummaryDto>(items, total, page, pageSize);
+        return property;
 
     }
 

@@ -21,4 +21,10 @@ public class PropertiesController : ControllerBase
         return Ok(properties);
     }
 
+    [HttpGet("{code}")]
+    public async Task<ActionResult<IReadOnlyList<PropertySummaryDto>>> getPropertyById(string code, CancellationToken ct)
+    {
+        var property = await _queries.GetByCodeAsync(code, ct);
+        return Ok(property);
+    }
 }

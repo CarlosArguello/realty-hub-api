@@ -2,7 +2,10 @@
 using Application.Property.Dtos;
 
 namespace Application.Property.Queries;
+
 public interface IPropertyQueries
 {
     Task<Paged<PropertySummaryDto>> GetAllAsync(PropertyFilters filters, CancellationToken cancellationToken);
+
+    Task<PropertyFullDetailsDto> GetByCodeAsync(string id, CancellationToken cancellationToken);
 }

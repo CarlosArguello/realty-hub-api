@@ -1,10 +1,11 @@
 namespace Application.Property.Dtos;
 
-public sealed record PropertySummaryDto(
+public sealed record PropertyFullDetailsDto(
     string Code,
     string Name,
     string Address,
     decimal Price,
     int Year,
-    string? FileUrl
+    OwnerDto? Owner,
+    PropertyImageDto Images
 );

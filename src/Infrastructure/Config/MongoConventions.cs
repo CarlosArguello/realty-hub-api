@@ -6,7 +6,7 @@ public static class MongoConventions
 {
     private static bool _registered;
 
-   public static void RegisterOnce()
+    public static void RegisterOnce()
     {
         if (_registered) return;
 
@@ -21,4 +21,3 @@ public static class MongoConventions
     }
 
 }
-
