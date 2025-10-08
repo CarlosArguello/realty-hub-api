@@ -41,15 +41,15 @@ public sealed class MongoPropertyQueries(IMongoDatabase db) : IPropertyQueries
 
         var items = await _properties.Aggregate()
             .Match(filter)
+            .SortByDescending(p => p.Year)
+            .Skip(skip)
+            .Limit(pageSize)
             .Lookup<PropertyDocument, PropertyImageDocument, PropertyImagesJoin>(
                 _propertyImgs,
                 localField: p => p.Id,
                 foreignField: i => i.PropertyId,
                 @as: pwi => pwi.propertyImages
             )
-            .SortByDescending(p => p.Name)
-            .Skip(skip)
-            .Limit(pageSize)
             .Project(p => new PropertySummaryDto(
                     p.CodeInternal,
                     p.Name,

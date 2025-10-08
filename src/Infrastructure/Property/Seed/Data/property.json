@@ -1,0 +1,416 @@
+[{
+  "_id": {
+    "$oid": "671000000000000000001001"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000101"
+  },
+  "name": "Apto Laureles",
+  "address": "Cra 73 #xx-xx, Medellín",
+  "price": 420000000,
+  "codeInternal": "PR-0001",
+  "year": 2019
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001002"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000102"
+  },
+  "name": "Casa Envigado",
+  "address": "Cl 34 Sur #xx-xx, Envigado",
+  "price": 980000000,
+  "codeInternal": "PR-0002",
+  "year": 2016
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001003"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000103"
+  },
+  "name": "Loft El Poblado",
+  "address": "Cra 43A #x-xx, Medellín",
+  "price": 650000000,
+  "codeInternal": "PR-0003",
+  "year": 2021
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001004"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000101"
+  },
+  "name": "Studio Laureles",
+  "address": "Circular 4 #x-xx, Medellín",
+  "price": 310000000,
+  "codeInternal": "PR-0004",
+  "year": 2023
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001005"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000102"
+  },
+  "name": "Finca Rionegro",
+  "address": "Vda. Llanogrande, Rionegro",
+  "price": 1850000000,
+  "codeInternal": "PR-0005",
+  "year": 2018
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001006"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000104"
+  },
+  "name": "Casa Sabaneta",
+  "address": "Cl 60 Sur #xx, Sabaneta",
+  "price": 520000000,
+  "codeInternal": "PR-0006",
+  "year": 2020
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001007"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000103"
+  },
+  "name": "Apto Belén",
+  "address": "Cra 76 #xx, Medellín",
+  "price": 380000000,
+  "codeInternal": "PR-0007",
+  "year": 2017
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001008"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000101"
+  },
+  "name": "Penthouse Poblado",
+  "address": "Cl 10 #xx, Medellín",
+  "price": 1450000000,
+  "codeInternal": "PR-0008",
+  "year": 2024
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001009"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000101"
+  },
+  "name": "Casa Itagüí",
+  "address": "Cl 50 #45-12, Itagüí",
+  "price": 560000000,
+  "codeInternal": "PR-0009",
+  "year": 2018
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001010"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000102"
+  },
+  "name": "Apto Robledo",
+  "address": "Cra 80 #72-20, Medellín",
+  "price": 340000000,
+  "codeInternal": "PR-0010",
+  "year": 2017
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001011"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000103"
+  },
+  "name": "Dúplex Laureles",
+  "address": "Cq 2 #74-30, Medellín",
+  "price": 720000000,
+  "codeInternal": "PR-0011",
+  "year": 2020
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001012"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000104"
+  },
+  "name": "Casa Campestre Guarne",
+  "address": "Vda. Yolombal, Guarne",
+  "price": 1250000000,
+  "codeInternal": "PR-0012",
+  "year": 2016
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001013"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000101"
+  },
+  "name": "Apto Ciudad del Río",
+  "address": "Cl 24 #43F-21, Medellín",
+  "price": 870000000,
+  "codeInternal": "PR-0013",
+  "year": 2022
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001014"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000102"
+  },
+  "name": "Loft Manila",
+  "address": "Cl 11A #43B-17, Medellín",
+  "price": 610000000,
+  "codeInternal": "PR-0014",
+  "year": 2019
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001015"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000103"
+  },
+  "name": "Casa Prado Centro",
+  "address": "Cra 50 #59-40, Medellín",
+  "price": 680000000,
+  "codeInternal": "PR-0015",
+  "year": 2015
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001016"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000104"
+  },
+  "name": "Apto La América",
+  "address": "Cl 44 #84-15, Medellín",
+  "price": 390000000,
+  "codeInternal": "PR-0016",
+  "year": 2018
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001017"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000101"
+  },
+  "name": "Townhouse Sabaneta",
+  "address": "Cl 75 Sur #45-10, Sabaneta",
+  "price": 740000000,
+  "codeInternal": "PR-0017",
+  "year": 2021
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001018"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000102"
+  },
+  "name": "Apto La Frontera",
+  "address": "Cra 43A #18 Sur-50, Envigado",
+  "price": 820000000,
+  "codeInternal": "PR-0018",
+  "year": 2023
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001019"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000103"
+  },
+  "name": "Finca El Retiro",
+  "address": "Vda. Pantanillo, El Retiro",
+  "price": 1980000000,
+  "codeInternal": "PR-0019",
+  "year": 2017
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001020"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000104"
+  },
+  "name": "Penthouse Envigado",
+  "address": "Cl 30 Sur #43A-12, Envigado",
+  "price": 1520000000,
+  "codeInternal": "PR-0020",
+  "year": 2024
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001021"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000101"
+  },
+  "name": "Apto El Poblado",
+  "address": "Cra 43A #1-50, Medellín",
+  "price": 780000000,
+  "codeInternal": "PR-0021",
+  "year": 2023
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001022"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000102"
+  },
+  "name": "Loft Laureles",
+  "address": "Circular 4 #71-30, Medellín",
+  "price": 520000000,
+  "codeInternal": "PR-0022",
+  "year": 2021
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001023"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000103"
+  },
+  "name": "Casa Envigado",
+  "address": "Calle 36 Sur #26-15, Envigado",
+  "price": 950000000,
+  "codeInternal": "PR-0023",
+  "year": 2018
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001024"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000104"
+  },
+  "name": "Apto Sabaneta",
+  "address": "Cra 45 #67 Sur-10, Sabaneta",
+  "price": 430000000,
+  "codeInternal": "PR-0024",
+  "year": 2022
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001025"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000101"
+  },
+  "name": "Apto Ciudad del Río",
+  "address": "Cll 19A #43-15, Medellín",
+  "price": 680000000,
+  "codeInternal": "PR-0025",
+  "year": 2020
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001026"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000102"
+  },
+  "name": "Penthouse Poblado",
+  "address": "Cll 10 #30-210, Medellín",
+  "price": 1450000000,
+  "codeInternal": "PR-0026",
+  "year": 2024
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001027"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000103"
+  },
+  "name": "Casa Belén",
+  "address": "Cra 76 #30A-12, Medellín",
+  "price": 570000000,
+  "codeInternal": "PR-0027",
+  "year": 2019
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001028"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000104"
+  },
+  "name": "Apto Calasanz",
+  "address": "Cra 80 #49C-20, Medellín",
+  "price": 390000000,
+  "codeInternal": "PR-0028",
+  "year": 2017
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001029"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000101"
+  },
+  "name": "Casa Laureles",
+  "address": "Cll 39C #74-24, Medellín",
+  "price": 820000000,
+  "codeInternal": "PR-0029",
+  "year": 2025
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001030"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000102"
+  },
+  "name": "Apto Robledo",
+  "address": "Cra 75 #78-10, Medellín",
+  "price": 360000000,
+  "codeInternal": "PR-0030",
+  "year": 2016
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001031"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000101"
+  },
+  "name": "Apto San Joaquín",
+  "address": "Cll 44 #68-20, Medellín",
+  "price": 610000000,
+  "codeInternal": "PR-0031",
+  "year": 2022
+},
+{
+  "_id": {
+    "$oid": "671000000000000000001032"
+  },
+  "ownerId": {
+    "$oid": "671000000000000000000102"
+  },
+  "name": "Loft Manila",
+  "address": "Cra 43B #10-24, Medellín",
+  "price": 565000000,
+  "codeInternal": "PR-0032",
+  "year": 2021
+}]

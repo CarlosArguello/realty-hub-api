@@ -1,0 +1,363 @@
+[{
+  "_id": {
+    "$oid": "671000000000000000002001"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001001"
+  },
+  "file": "https://images.unsplash.com/photo-1562765660-a0f6d5b6c209",
+  "thumbnailUrl": "https://picsum.photos/id/1018/400/300",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002002"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001002"
+  },
+  "file": "https://images.unsplash.com/photo-1674746760908-461a3f97175d",
+  "thumbnailUrl": "https://picsum.photos/id/1025/400/300",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002003"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001003"
+  },
+  "file": "https://images.unsplash.com/photo-1647022147108-75bfeed2cefe",
+  "thumbnailUrl": "https://picsum.photos/id/1032/400/300",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002004"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001004"
+  },
+  "file": "https://images.unsplash.com/photo-1647579350449-37960d792a05",
+  "thumbnailUrl": "https://picsum.photos/id/1043/400/300",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002005"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001005"
+  },
+  "file": "https://images.unsplash.com/photo-1479839672679-a46483c0e7c8",
+  "thumbnailUrl": "https://picsum.photos/id/1050/400/300",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002006"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001006"
+  },
+  "file": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914",
+  "thumbnailUrl": "https://picsum.photos/id/1060/400/300",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002007"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001007"
+  },
+  "file": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9",
+  "thumbnailUrl": "https://picsum.photos/id/1074/400/300",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002008"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001008"
+  },
+  "file": "https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f",
+  "thumbnailUrl": "https://picsum.photos/id/1084/400/300",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002009"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001009"
+  },
+  "file": "https://images.unsplash.com/photo-1647579350413-a6ada4e480ed",
+  "thumbnailUrl": "https://picsum.photos/id/109/400/300",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002010"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001010"
+  },
+  "file": "https://images.unsplash.com/photo-1613977257365-aaae5a9817ff",
+  "thumbnailUrl": "https://picsum.photos/id/110/400/300",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002011"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001011"
+  },
+  "file": "https://images.unsplash.com/photo-1681421760227-e996c82b881f",
+  "thumbnailUrl": "https://picsum.photos/id/111/400/300",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002012"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001012"
+  },
+  "file": "https://images.unsplash.com/photo-1618606338706-fc3bad33dbe6",
+  "thumbnailUrl": "https://picsum.photos/id/112/400/300",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002013"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001013"
+  },
+  "file": "https://images.unsplash.com/photo-1525438160292-a4a860951216",
+  "thumbnailUrl": "https://picsum.photos/id/113/400/300",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002014"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001014"
+  },
+  "file": "https://images.unsplash.com/photo-1639060589553-77c8c2227ac5",
+  "thumbnailUrl": "https://picsum.photos/id/114/400/300",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002015"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001015"
+  },
+  "file": "https://plus.unsplash.com/premium_photo-1679697668704-f1b607596a5a",
+  "thumbnailUrl": "https://picsum.photos/id/115/400/300",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002016"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001016"
+  },
+  "file": "https://images.unsplash.com/photo-1611920884794-92783f260fbd",
+  "thumbnailUrl": "https://picsum.photos/id/116/400/300",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002017"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001017"
+  },
+  "file": "https://images.unsplash.com/photo-1570463377529-72165f913a55",
+  "thumbnailUrl": "https://picsum.photos/id/117/400/300",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002018"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001018"
+  },
+  "file": "https://images.unsplash.com/photo-1758551472051-168a35343bef",
+  "thumbnailUrl": "https://picsum.photos/id/118/400/300",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002019"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001019"
+  },
+  "file": "https://images.unsplash.com/photo-1671970805082-1e42860024e9",
+  "thumbnailUrl": "https://picsum.photos/id/119/400/300",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002020"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001020"
+  },
+  "file": "https://images.unsplash.com/photo-1740484408109-bf402fa3a1ff",
+  "thumbnailUrl": "https://picsum.photos/id/120/400/300",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002021"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001021"
+  },
+  "file": "https://images.unsplash.com/photo-1632400990400-416d5460f337",
+  "thumbnailUrl": "https://picsum.photos/id/121/400/300",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002022"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001022"
+  },
+  "file": "https://images.unsplash.com/photo-1719294606258-f2d3000a87d8",
+  "thumbnailUrl": "https://picsum.photos/id/122/400/300",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002023"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001023"
+  },
+  "file": "https://images.unsplash.com/photo-1759283451880-4d8fec77ab02",
+  "thumbnailUrl": "https://picsum.photos/id/123/400/300",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "68e5d711f8a18bd0700db96c"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001021"
+  },
+  "file": "https://images.unsplash.com/photo-1748440290920-9033ca4e1468",
+  "thumbnailUrl": "https://images.unsplash.com/photo-1748440290920-9033ca4e1468?w=400&h=300&fit=crop",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002024"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001024"
+  },
+  "file": "https://images.unsplash.com/photo-1647579350437-ed3307900d0d",
+  "thumbnailUrl": "https://images.unsplash.com/photo-1647579350437-ed3307900d0d?w=400&h=300&fit=crop",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002025"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001025"
+  },
+  "file": "https://images.unsplash.com/photo-1625405818271-fd403809ce13",
+  "thumbnailUrl": "https://images.unsplash.com/photo-1625405818271-fd403809ce13?w=400&h=300&fit=crop",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002026"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001026"
+  },
+  "file": "https://images.unsplash.com/photo-1631215320889-7cf5eb3224f8",
+  "thumbnailUrl": "https://images.unsplash.com/photo-1631215320889-7cf5eb3224f8?w=400&h=300&fit=crop",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002027"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001027"
+  },
+  "file": "https://images.unsplash.com/photo-1718491539828-476c5e65cc4e",
+  "thumbnailUrl": "https://images.unsplash.com/photo-1718491539828-476c5e65cc4e?w=400&h=300&fit=crop",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002028"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001028"
+  },
+  "file": "https://images.unsplash.com/photo-1561068069-cc2410d58f7c",
+  "thumbnailUrl": "https://images.unsplash.com/photo-1561068069-cc2410d58f7c?w=400&h=300&fit=crop",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002029"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001029"
+  },
+  "file": "https://images.unsplash.com/photo-1678292288181-4bd3f0c945ce",
+  "thumbnailUrl": "https://images.unsplash.com/photo-1678292288181-4bd3f0c945ce?w=400&h=300&fit=crop",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002030"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001030"
+  },
+  "file": "https://images.unsplash.com/photo-1697238241828-b708d9b20664",
+  "thumbnailUrl": "https://images.unsplash.com/photo-1697238241828-b708d9b20664?w=400&h=300&fit=crop",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002031"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001031"
+  },
+  "file": "https://images.unsplash.com/photo-1748440290920-9033ca4e1468",
+  "thumbnailUrl": "https://images.unsplash.com/photo-1748440290920-9033ca4e1468?w=400&h=300&fit=crop",
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "671000000000000000002032"
+  },
+  "propertyId": {
+    "$oid": "671000000000000000001032"
+  },
+  "file": "https://images.unsplash.com/photo-1520608421741-68228b76b6df",
+  "thumbnailUrl": "https://images.unsplash.com/photo-1520608421741-68228b76b6df?w=400&h=300&fit=crop",
+  "enabled": true
+}]

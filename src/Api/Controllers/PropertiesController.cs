@@ -24,7 +24,11 @@ public class PropertiesController : ControllerBase
     [HttpGet("{code}")]
     public async Task<ActionResult<IReadOnlyList<PropertySummaryDto>>> getPropertyById(string code, CancellationToken ct)
     {
+        if (string.IsNullOrWhiteSpace(code))
+            return BadRequest("Code is required");
+
         var property = await _queries.GetByCodeAsync(code, ct);
+        if (property is null) return NotFound();
         return Ok(property);
     }
 }

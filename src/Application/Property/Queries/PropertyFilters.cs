@@ -8,7 +8,4 @@ public sealed class PropertyFilters : PaginationBase
     public string? Address { get; set; }
     public decimal? MinPrice { get; set; }
     public decimal? MaxPrice { get; set; }
-    public int? Year { get; set; }
-    public string? OwnerId { get; set; }
-
 }
